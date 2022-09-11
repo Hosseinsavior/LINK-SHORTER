@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN apt -qq update
 ENV DEBIAN_FRONTEND=noninteractive
-ENV TZ=Asia/Kolkata
+ENV TZ=Asia/Tehran
 RUN apt -qq install -y git python3 python3-pip
 
 COPY requirements.txt .
