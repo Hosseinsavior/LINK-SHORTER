@@ -35,12 +35,13 @@ bot = Client('URLSHORTX',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "<i><u><b>I'm a specialised bot for shortening <a href=\"https://bit.ly/3pkR1ft\">droplink.co</a> .  </i></u></b>\n\n  <i><u><b> 📍 USE /help FOR MORE 📍  \n\n 🔰📍Made by @Savior_128 🔰📍. \n\n  ⚜️ \n\n ⚡️⚡️ FOR MORE OPEN \n Channel ⚡️⚡️ \n\n  ‼️ </i></u></b>", disable_web_page_preview=True )
+        "<i><u><b>I'm a specialised bot for shortening link  </i></u></b>\n\n  <i><u><b> 📍<a href=\"https://t.me/danisooper\">telegram channel</a> .  </i></u></b>\n\n  <i><u><b> 📍 USE /help FOR MORE 📍  \n\n 🔰📍Made by @Savior_128 🔰📍. \n\n  ⚜️ \n\n⚡️⚡️ \n\n  ‼️ </i></u></b>", disable_web_page_preview=True )
+
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
       await message.reply(
-          f"**__ HeLLo {message.chat.first_name} .\n Send Your Link 1st❕ I Will Send Short Link 👍 \n\n <u><b><i> 🔰TRY MY OTHER BOTS 🔰  \n\n ✅ ☞ @Hashooorbot⭐  \n\n 🔰 Powered by [Savior_128](https://t.me/Savior_128) 🔰  \n\n ⚡️⚡️ __ ",  disable_web_page_preview=True)
+          f"**__ HeLLo {message.chat.first_name} .\n Send Your Link 1st❕ I Will Send Short Link 👍 \n\n <u><b><i> 🔰TRY MY OTHER BOTS 🔰  \n\n ✅ ☞ [Video Merge](https://t.me/Hashooorbot)⭐ \n\n 🔰 Powered by [Savior_128](https://t.me/Savior_128) 🔰  \n\n ⚡️⚡️ __ ",  disable_web_page_preview=True)
 
 
 @bot.on_message(filters.command('source') & filters.private)
